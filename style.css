@@ -1,60 +1,58 @@
 .wrapper{
-    width:90%;
+    width:70%;
     display:grid;
-    margin-left:5%;
+    margin-left:15%;
 }
 body{
     background-color: black;
     min-height:100%;
-    overflow:auto;
 }
 .header{
-    color:#7FFFD4;
     text-align: center;
-    font-family:"Playfair Display", impact
+    font-family:"Silkscreen";
+    font-size: 200%;
+    color:white
 }
 .content{
     display:grid;
     grid-template-columns: 1fr 3fr;
     font-family: "Rajdhani";
+    color:white;
 }
-.socials{
-    display:inline-block;
-    height: 50px;
+
+.socials img {
+    height:70%;
 }
 .left {
     margin-right:10%;
 }
-.left-links{
+.box{
+    background-color:#363838;
+}
+.left-links-li{
     padding: 10%;
 }
-.left-links a {
-    border:1px solid grey;
-    margin-bottom: 10%;
+.left-links-li li {
+    padding:5%;
+}
+.right a {
+    color:grey;
+}
+.right h3{
+    padding: 5% 0 0 5%;
+}
+ul {
+    list-style-type: none;
 }
 a {
     text-decoration: none;
     color:white;
 }
-.post{
-    display:grid;
-    height:50px;
-    margin:5% 10% 5% 10%;
-    border:1px dotted white;
-    color:white;
-}
-.post a{
-    vertical-align: middle;
-    position:relative;
-    top:10%;
-}
 .self-icn img{
-    height:10em;
+    height:40em;
+    padding-top: 5%;
 }
 .about{
-    color:white;
-    display:inline-flex;
-    border: 1px solid grey;
-    padding:5%;
-    border-radius: 0 10% 10% 0;
+    background-color:#363838;
+    margin-top: 1%;
 }
