@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Amaris Spacetime</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -37,9 +37,7 @@
         </div>
         <div class="right">
           <div class="box text">
-            <h4>Greetings</h4>
-            <p>Hello, welcome to my corner of spacetime.</p>
-            <p>I am an engineer with lots of hobbies and dreams. I like to make cool things and usually have a couple projects in the works at any given point. This page is a work in progress, I have lots of cool and fun ideas yet to come!!!</p>
+            <main>{{content}}</main>  
           </div>
           <div class="box text">
             <h4>Recent Posts</h4>
