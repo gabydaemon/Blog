@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/header.html"%}
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        {% include "partials/left-nav.html" %}
+        <div class="right">
+          <div class="box">
+             <div class="text">
+               <h4>{{ title }}</h4>
+               <p> {{ date | readableDate }} </p>
+               <div>{{ content | safe }} </div>
+             </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
