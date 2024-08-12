@@ -1,0 +1,38 @@
+name: Deploy to Nekoweb
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare build
+        run: |
+          mkdir -p ./build
+          cp -r ./public/* ./build
+
+      - name: Set Up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install deps and build
+        run: |
+          npm i
+          npm run build
+      - name: Deploy to Nekoweb
+        uses: gabydaemon/blog@main
+        with:
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          BUILD_DIR: './public'
+          DEPLOY_DIR: '/'
+          CLEANUP: 'False'
+          DELAY: '0.5'
+          NEKOWEB_PAGENAME: 'ironstar'
