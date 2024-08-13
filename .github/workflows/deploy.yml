@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Build 11ty site
-      run: npx eleventy
+      run: npx @11ty/eleventy
 
     - name: Prepare build
       run: |
