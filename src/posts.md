@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.html
 title: All Posts
+permalink: "/posts.html"
 ---
 <ul class="posts">
 {% assign top_posts = collections.post | reverse %}

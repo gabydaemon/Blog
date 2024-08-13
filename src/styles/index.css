@@ -43,8 +43,8 @@ html{
     background-color:#999999;
     color:black;
     font-family:'Silkscreen';
-    font-size:1.5vw;
-    padding: 1vw 0 1vw 0;
+    font-size:1vw;
+    padding: 0.5vw 0 0.5vw 0;
 }
 .left-links-li{
     padding: 0 10% 10% 10%;

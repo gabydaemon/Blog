@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.html
 title: Hotlinks
+permalink: "/hotlinks.html"
 ---
 
 ### Music
