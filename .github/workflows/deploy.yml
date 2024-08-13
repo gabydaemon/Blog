@@ -1,9 +1,8 @@
 name: Deploy 11ty to NekoWeb
 
 on:
-  push:
-    branches:
-      - main  
+  workflow_dispatch:
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -21,7 +20,7 @@ jobs:
       run: npm install
 
     - name: Build 11ty site
-      run: npx @11ty/eleventy
+      run: npx @11ty/eleventy --debug
 
     - name: Prepare build
       run: |
