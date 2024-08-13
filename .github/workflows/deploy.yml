@@ -24,16 +24,16 @@ jobs:
       run: npx eleventy
 
     - name: Prepare build
-        run: |
+      run: |
           mkdir -p ./build
           cp -r ./public/* ./build
 
-      - name: Deploy to Nekoweb
-        uses: mp-pinheiro/nekoweb-deploy@main
-        with:
-          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
-          BUILD_DIR: './build'
-          DEPLOY_DIR: '/'
-          CLEANUP: 'False'
-          DELAY: '0.5'
-          NEKOWEB_PAGENAME: 'ironstar'
+    - name: Deploy to Nekoweb
+      uses: mp-pinheiro/nekoweb-deploy@main
+      with:
+        API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+        BUILD_DIR: './build'
+        DEPLOY_DIR: '/'
+        CLEANUP: 'False'
+        DELAY: '0.5'
+        NEKOWEB_PAGENAME: 'ironstar'
