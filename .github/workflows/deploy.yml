@@ -1,37 +1,38 @@
-name: Deploy to Nekoweb
+name: Deploy 11ty to NekoWeb
 
 on:
   push:
     branches:
-      - main
-
+      - main  
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Prepare build
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'  
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build 11ty site
+      run: npx eleventy
+
+    - name: Prepare build
         run: |
           mkdir -p ./build
           cp -r ./public/* ./build
 
-      - name: Set Up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-
-      - name: Install deps and build
-        run: |
-          npm i
-          npm run build
       - name: Deploy to Nekoweb
-        uses: gabydaemon/blog@main
+        uses: mp-pinheiro/nekoweb-deploy@main
         with:
           API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
-          BUILD_DIR: './public'
+          BUILD_DIR: './build'
           DEPLOY_DIR: '/'
           CLEANUP: 'False'
           DELAY: '0.5'
