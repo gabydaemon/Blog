@@ -1,7 +1,7 @@
 ---
 tags: ["post", "life"] 
 title: Reclaiming Life
-date: 2024-08-29
+date: 2024-08-06
 permalink: posts/reclaiming-life.html
 ---
 I grew up online. I loved Neopets, Club Penguin, AIM, Wolfhome, VMU, VMK, the list goes on. Today my entire career surrounds computers. It was only natural.

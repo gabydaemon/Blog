@@ -7,15 +7,15 @@ permalink: "/hotlinks.html"
 ### Music
 - Vibe: Summer: [Poolsuite.net](https://Poolsuite.net)
 - Vibe: vaporwave: [Plaza.one](https://plaza.one)
-- Vibe: Chillpop soundscaping: [imissmycafe.com](https://imissmycafe.com)
-- Vibe: Lofi https://www.lofi.cafe/
-- Music genre grinding: https://everynoise.com
-- Music discovery: https://rateyourmusic.com
-- Music from different eras and locations: https://radiooooo.com
-- Music from all over: https://radio.garden
-- Soundscaping: https://www.noisli.com/
-- Chill soundscaping: https://asoftmurmur.com/
-- Radio alternative: https://somafm.com/player/#/all-stations
+- Vibe: Chillpop soundscaping: [IMissMyCafe.com](https://imissmycafe.com)
+- Vibe: Lofi [Lofi.cafe](https://www.lofi.cafe/)
+- Music genre grinding: [EveryNoise.com](https://everynoise.com)
+- Music discovery: [RateYourMusic.com](https://rateyourmusic.com)
+- Music from different eras and locations: [Radiooooo.com](https://radiooooo.com)
+- Music from all over: [Radio.Garden](https://radio.garden)
+- Soundscaping: [Noisli.com](https://www.noisli.com/)
+- Chill soundscaping: [ASoftMurmur.com](https://asoftmurmur.com/)
+- Radio alternative: [Somafm.com](https://somafm.com/player/#/all-stations)
 
 ### Social
 - recommendation social media: https://pi.fyi
@@ -77,6 +77,7 @@ permalink: "/hotlinks.html"
 - https://stumbled.cc/
 - **Specific Search Engines**
 - NeoCities: https://vhs.neocities.org/
-- Message Forums: https://boardreader.com/
-- Old GIFs: https://gifcities.org/
-- Independent blogs:  https://searchmysite.net/
+- Message Forums: [BoardReader.com](https://boardreader.com/)
+- Old GIFs: [GifCities.org](https://gifcities.org/)
+- Independent blogs: [SearchMySite.net](https://searchmysite.net/)
+- Public domain search engine: [Public.Work](https://public.work)
