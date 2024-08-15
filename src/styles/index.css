@@ -71,6 +71,9 @@ a {
 .self-icn img{
     height:40em;
     padding-top: 5%;
+    position: relative;
+    z-index:100;
+
 }
 
 .post-list li {
@@ -78,9 +81,13 @@ a {
 }
 
 .text-post {
-    padding:0 2% 2% 2%;
+    padding:0 5px 5px 5px;
 }
 .text-post a {
     color:#c75c04;
+}
+
+.hotlinks h3{
+    margin-left:20px;
 }
 

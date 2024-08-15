@@ -3,6 +3,7 @@ layout: layouts/base.html
 title: Hotlinks
 permalink: "/hotlinks.html"
 ---
+<div class="text-post hotlinks">
 
 ### Music
 - Vibe: Summer: [Poolsuite.net](https://Poolsuite.net)
@@ -81,3 +82,4 @@ permalink: "/hotlinks.html"
 - Old GIFs: [GifCities.org](https://gifcities.org/)
 - Independent blogs: [SearchMySite.net](https://searchmysite.net/)
 - Public domain search engine: [Public.Work](https://public.work)
+</div>
