@@ -1,8 +1,7 @@
 .wrapper{
-    width:1000px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    width:70%;
+    display:grid;
+    margin-left:15%;
 }
 html{
     background-color: black;
@@ -45,7 +44,7 @@ a {
 
 .right-main{
     display:grid;
-    grid-template-columns: 430px 380px;
+    grid-template-columns: 2fr 1fr;
     gap:20px;
 
 }
@@ -58,7 +57,7 @@ a {
     background-color:#999999;
     color:black;
     font-family:'Silkscreen';
-    font-size:13px;
+    font-size:15px;
     padding: 0.5vw 0 0.5vw 0;
 }
 .left-links-li{

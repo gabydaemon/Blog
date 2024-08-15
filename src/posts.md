@@ -3,9 +3,9 @@ layout: layouts/base.html
 title: All Posts
 permalink: "/posts.html"
 ---
-<ul class="posts">
+<ul class="post-list">
 {% assign top_posts = collections.post | reverse %}
   {%- for post in top_posts limit:3 -%}
-<li><a href="collections/{{ post.data.permalink }}"> {{ post.data.title }} ☆ {{ post.data.date | readableDate }}</a></li>
+<li><a href="{{ post.data.permalink }}"> {{ post.data.title }} ☆ {{ post.data.date | readableDate }}</a></li>
   {% endfor %}
 </ul>

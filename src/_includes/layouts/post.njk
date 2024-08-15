@@ -7,10 +7,10 @@
         {% include "partials/left-nav.html" %}
         <div class="right">
           <div class="box">
-             <div class="text">
-               <h4>{{ title }}</h4>
-               <p> {{ date | readableDate }} </p>
-               <div>{{ content | safe }} </div>
+            <h4>{{ title }}</h4>
+            <div class="text-post">
+              <p> {{ date | readableDate }} </p>
+              <div>{{ content | safe }} </div>
              </div>  
           </div>
         </div>
