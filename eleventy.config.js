@@ -4,7 +4,6 @@ module.exports = function (eleventyConfig) {
    eleventyConfig.addPassthroughCopy("./src/styles/");
    eleventyConfig.addWatchTarget("./src/styles/");
    eleventyConfig.addPassthroughCopy("./src/assets/");
-   eleventyConfig.addPassthroughCopy("./src/simple-rss.js");
    
    eleventyConfig.addFilter('readableDate', (dateObj) => {
      return DateTime.fromJSDate(dateObj, { zone: 'utc+9' }).toFormat(

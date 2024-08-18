@@ -1,5 +1,5 @@
 ---
-tags: ["post", "life"] 
+tags: ["life"] 
 title: Quitting Gaming
 date: 2024-08-10
 permalink: posts/quitting-gaming.html

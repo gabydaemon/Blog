@@ -1,5 +1,5 @@
 ---
-tags: ["post", "life"] 
+tags: ["life"] 
 title: Reclaiming Life
 date: 2024-08-06
 permalink: posts/reclaiming-life.html

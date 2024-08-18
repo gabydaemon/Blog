@@ -1,5 +1,5 @@
 ---
-tags: ["post", "nerdy"] 
+tags: ["nerdy"] 
 title: My Set Up & Workflows
 date: 2024-08-14
 permalink: posts/set-up-and-workflows.html
