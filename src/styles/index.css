@@ -108,3 +108,9 @@ a {
  #header-runner {
     background-color:#c75c04;
  }
+
+#to-do {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
