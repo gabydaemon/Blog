@@ -58,6 +58,9 @@ permalink: "/hotlinks.html"
 - [OpenLibrary.org](https://openlibrary.org)
 - How to glue materials together [ThisToThat.com](http://thistothat.com)
 - Colors and proportions of an image [Geotests.net](https://www.geotests.net/couleurs/frequs.html)
+- Learn programming languages [Exercism.org](https://exercism.org/)
+- A Syllabus for Generalists [SyllabusProject.org](https://syllabusproject.org/a-syllabus-for-generalists/)
+- How to Create your own Syllabus [TLL.MIT.edu](https://tll.mit.edu/teaching-resources/course-design/syllabus/)
 
 ### Nostalgia
 - Windows '93 Simulator [Windows93.net](https://windows93.net)
