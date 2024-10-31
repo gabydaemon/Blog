@@ -98,10 +98,15 @@ a {
     height:100%;
     
  }
-#obsession {
-  width:100%;
+.obsession {
+  display:inline-block;
 }
- #buttons {
+.obsession > img {
+  width:49%;
+  height:300px;
+}
+
+#buttons {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -112,7 +117,4 @@ a {
     background-color:#c75c04;
  }
 
-#to-do {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+

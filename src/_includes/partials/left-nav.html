@@ -18,5 +18,38 @@
   <div class="">
     <img id="self-icn" src="/assets/self1.png">
   </div>
+  <div class="box">
+    <h4> Stats </h4>
+    <ul class="left-links-li">
+      <li id="created"></li>
+      <li id="updated"></li>
+      <li id="visitors"></li>
+    </ul>
+  </div> 
 </div>
+    <script>
+       //stats
+      let username = "ironstar"; // <<<--- Insert your username here!
+
+      (async () => {
+        try {
+          const request = await fetch(`https://nekoweb.org/api/site/info/${username}`,);
+          const json = await request.json();
+
+          const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+          const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+          if (document.getElementById("created")) document.getElementById("created").innerHTML = `<strong>Created</strong>: ${created}`;
+          if (document.getElementById("updated")) document.getElementById("updated").innerHTML = `<strong>Updated</strong>: ${updated}`;
+          if (document.getElementById("visitors")) document.getElementById("visitors").innerHTML = `<strong>Visits</strong>: ${json.views}`;
+          if (document.getElementById("followers")) document.getElementById("followers").innerHTML = `<em>Followers</em>: ${json.followers}`;
+          } catch (error) {
+            console.error(error);
+    // If you wish to insert some fallback here, you may do so!
+        }
+      })();
+
+      //music player
+    </script>
+
 
