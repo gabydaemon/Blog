@@ -117,4 +117,27 @@ a {
     background-color:#c75c04;
  }
 
+.silica {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.silica > img{
+  width:100%;
+}
 
+#baana{
+  width:100px;
+  position: absolute;
+  top:80px;
+  right:150px;
+}
+#label {
+  width:100px;
+  position: absolute;
+  top:900px;
+  right: 580px; 
+  transform: rotate(-35deg);
+
+
+}
