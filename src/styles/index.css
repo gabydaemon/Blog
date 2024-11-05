@@ -98,14 +98,17 @@ a {
     height:100%;
     
  }
-.obsession {
+.obsession-images {
   display:inline-block;
 }
-.obsession > img {
+.obsession-image-tall {
   width:49%;
   height:300px;
 }
-
+.obsession-image-sq {
+  width:49%;
+  height:200px;
+}
 #buttons {
     display:flex;
     justify-content:center;
