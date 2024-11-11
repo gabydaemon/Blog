@@ -22,7 +22,7 @@ Then Life happened. I was stalked by dangerous men one too many times (one with 
 ### Time Skip
 Fast forward a few years, and I've found the courage to return to the gym. All my gains withered away and I had to start from scratch again- but this time it felt deeply spiritual.  Having lost my sense of personhood, strength, and self-sufficiency fucked me up really good. While in hermit mode I had no interest in anything except being on full alert 24/7 to ensure I live. So, when I found my way back, lifting weights was not as simple as lifting weights. I was a different person from the last time I exerted myself with the goal of getting stronger. 
 
-This time, it meant taking back everything men had stolen from me. It meant building brute strength that I could base my confidence in if I had to fight for my life again. It felt like a pervernt prayer from within the eye of a hurricane to move this body while knowing many people like me did not survive like I did. 
+This time, it meant taking back everything men had stolen from me. It meant building brute strength that I could base my confidence in if I had to fight for my life again. It felt like a fervernt prayer from within the eye of a hurricane to move this body while knowing many people like me did not survive like I did. 
 Being in the gym feels like being in a temple and asking God (me) for the strength to continue.
 It feels like trudging up a mountain. Its hard, tiring, and not always what I *want* to do, but future me is always proud and my God always hears my prayers. It became a self-actualizing ritual.
 

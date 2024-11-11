@@ -23,7 +23,7 @@ permalink: "/hotlinks.html"
 - fun website builder: [mmm.page](https://mmm.page)
 - fun website builder: [Univer.se](https://univer.se/)
 - Indie web hosting: [Neocities.org](https://neocities.org)
-- Indie web hosting: [Nekoweb.org] (https://nekoweb.org)
+- Indie web hosting: [Nekoweb.org](https://nekoweb.org)
 ### Inspo Grinding
 - Digital Scrapbook: [Are.na](https://are.na)
 - Image collection: [Cosmos.so](https://cosmos.so)

@@ -10,4 +10,4 @@ title: "Packets: Visual Collection"
 </div>
 
 <center>Want to submit a silica packet? <br>
-Send a well good image to ilikemail99@gmail.com!</center>
+Send a good, well lit image to ilikemail99@gmail.com!</center>
