@@ -102,12 +102,16 @@ a {
   display:inline-block;
 }
 .obsession-image-tall {
-  width:49%;
+  width:48%;
   height:300px;
+}
+.obsession-image-tall:first-child {
+  padding-right:6px;
+  padding-left:6px;
 }
 .obsession-image-sq {
   width:49%;
-  height:200px;
+  height:250px;
 }
 #buttons {
     display:flex;
