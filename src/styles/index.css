@@ -63,6 +63,14 @@ a {
     font-size:12px;
     padding: 0.5vw 0 0.5vw 0;
 }
+
+.updates{
+  display:inline-block;
+  height:116px;
+  overflow:auto;
+  padding-right:5%;
+}
+
 .left-links-li{
     padding: 0 10% 10% 10%;
 }
@@ -80,10 +88,12 @@ a {
 }
 
 .text-post {
-    margin:0 20px 200px 20px;
+    margin:0 50px 200px 50px;
     padding-bottom:5px;
+    line-height:1.75;
  }
-.text-post a {
+
+ .text-post a {
     color:#c75c04;
 }
 .right-text-section {
@@ -146,5 +156,5 @@ a {
   right: 580px; 
   transform: rotate(-35deg);
 
-
 }
+
