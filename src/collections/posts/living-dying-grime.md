@@ -1,7 +1,7 @@
 ---
 tags: ["life","philosophy"] 
 title: Living, Dying, Grime 
-date: 2025-01-20
+date: 2025-01-25
 permalink: posts/living-dying-grime.html
 ---
 <center><em>Suggested supplemental listening</em></center>
