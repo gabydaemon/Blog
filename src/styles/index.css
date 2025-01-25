@@ -158,3 +158,54 @@ a {
 
 }
 
+
+
+
+
+/* Gallery container */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for each figure */
+.gallery figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style for images */
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+
+
+/* Optional: Make sure captions still look nice when image is enlarged */
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Optional: Enlarge on hover (optional) */
+.gallery img:hover {
+  transform: scale(2);
+  height:auto;
+}
+
+
+
+
+
+
